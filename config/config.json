@@ -1,0 +1,19 @@
+{
+    "development": {
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "postgres",
+        "password":  "pelada",
+        "database": "bin",
+        "host": "localhost:5432",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "postgres",
+        "password":  "pelada",
+        "database": "bin",
+        "host": "127.0.0.1:5432",
+        "dialect": "postgres"
+    }
+}
