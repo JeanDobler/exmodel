@@ -4,16 +4,16 @@
     },
     "test": {
         "username": "postgres",
-        "password":  "pelada",
+        "password":  "nodepg",
         "database": "bin",
         "host": "localhost:5432",
         "dialect": "postgres"
     },
     "production": {
         "username": "postgres",
-        "password":  "pelada",
+        "password":  "nodepg",
         "database": "bin",
-        "host": "127.0.0.1:5432",
+        "host": "localhost:5432",
         "dialect": "postgres"
     }
 }
